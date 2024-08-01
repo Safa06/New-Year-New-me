@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* banner styles */
+.banner-container{
+    
+    height: 70vh;
+    background-image: url("images/banner/banner3.png");
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-left: 470px;
+    padding-right: 20px;
+    text-align: end;
+}
+.banner-heading-all{
+    width: 100%;
+    
+}
+
+.banner-title{
+    font-size: 60px;
+    color: white;
+    padding-top: 50px;
+
+}
+.banner-text{
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+}
+.banner-btn{
+    width: 120px;
+    padding: 15px;
+    font-size: 15px;
+    color: blue;
+    background-color: white;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: end;
+
+}
+
+/* <!-- my failures styles --> */
+.my-failures-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    gap: 200px;
+
+}
+.my-failures-img{
+    width: 350px;
+    height: 450px;
+
+}
+
+.my-failures-title{
+    font-size: 40px;
+}
+.my-failures-details{
+    margin-top: 40px;
+    font-size: 18px;
+
+}
+/* tick mark stlye */
+ul{
+    list-style: none;
+}
+ul li::before{
+    content: '✓';
+    margin: 5px;
+    color: red;
+}
+/* tick mark style done */
+
+.my-failures-list{
+    margin-top: 10px; 
+}
+
+/* my plans styles */
+.plans-container{
+    width: 70%;
+    margin: auto;
+    margin-top: 70px;
+}
+.plans-example-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+.plans-title{
+    font-size: 40px;
+    text-align: center;
+}
+p{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+small{
+    font-size: 18px;
+    color: gray;
+}
+
+/* positive gradient styles */
+.gradient-container{
+    width: 70%;
+    height: 40vh;
+    margin: auto;
+    margin-top: 70px;
+    background-image: url("images/gradient3.png"),url("images/watch.png");
+    background-position: right;
+    margin-bottom: 30px;
+}
+
+/* footer styles */
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+    background-color: black;
+    width: 100%;
+    height: 50vh;
+}
+.footer-left{
+    width: 40%;
+}
+.footer-title{
+    font-size: 40px;
+    color: white;
+    margin-top: 30px;
+}
+.footer-text{
+    font-size: 18px;
+    color: white;
+}
+.footer-email{
+    color: white;
+    font-size:18px ;
+}
+.footer-phn{
+    color: white;
+    font-size:18px ;
+}
+.footer-icon{
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+.footer-subs{
+    color: white;
+    font-size: 30px;
+}
+.footer-inp{
+    width: 380px;
+    height: 40px;
+    border: 1px solid white;
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: black;
+    padding-left: 10px;
+}
+.subs-btn{
+    width: 120px;
+    height: 40px;
+    background-color: goldenrod;
+    color: white;
+    border: 0;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
